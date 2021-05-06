@@ -9,12 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Elearn">
-        <activity android:name=".MainActivity">
+        <activity android:name=".userLogin"></activity>
+        <activity android:name=".adminActivity" />
+        <activity android:name=".userRegistration" />
+        <activity android:name=".UserDashboard" />
+        <activity android:name=".signUpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".loginActivity" />
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
